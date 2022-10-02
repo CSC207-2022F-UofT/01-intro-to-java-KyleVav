@@ -151,7 +151,7 @@ public class Basics {
         // Fill in the rest of the body here
         String[] split_str = to_split.split(" ");
         for (int i = 0; i < split_str.length; i++) {
-            ret = ret + split_str[i].charAt(0);
+            ret.append(split_str[i].charAt(0));
         }
 
         return ret.toString();
